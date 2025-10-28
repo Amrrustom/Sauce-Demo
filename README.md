@@ -105,6 +105,7 @@ Screenshots for failed tests
 Logs and test steps
 
 ## Technologies Used
+```
 Tool / Library	Purpose
 ☕ Java	Programming language
 🧭 Selenium WebDriver	Web automation
@@ -112,8 +113,9 @@ Tool / Library	Purpose
 🏗️ Maven	Build and dependency management
 📊 Allure	Test reporting
 🧱 Page Object Model	Design pattern for maintainability
-
+```
 ## 👨‍💻 Author
-
+```
 Amr Gamal Rustom
 💼 QA Automation Engineer
+```
