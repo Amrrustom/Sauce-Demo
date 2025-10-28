@@ -1,0 +1,33 @@
+[INFO] - [2025-10-29 00-47-15] - Loading test properties from: src\main\resources\properties\testConfig.properties
+[INFO] - [2025-10-29 00-47-15] - Properties loaded successfully 
+[INFO] - [2025-10-29 00-47-15] - Directory already exists: test_outputs\logs
+[INFO] - [2025-10-29 00-47-15] - Directory already exists: test_outputs\allure_results
+[INFO] - [2025-10-29 00-47-15] - Directory already exists: test_outputs\screenshots
+[INFO] - [2025-10-29 00-47-15] - Directory already exists: test_outputs\allure_report
+[INFO] - [2025-10-29 00-47-15] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\saucedemo-\test_outputs\allure_results
+[INFO] - [2025-10-29 00-47-15] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\saucedemo-\test_outputs\screenshots
+[ERROR] - [2025-10-29 00-47-15] - Property not found: url
+[INFO] - [2025-10-29 00-47-16] - Test run started
+[INFO] - [2025-10-29 00-47-16] - Reading JSON file from path: src/test/resources/Login.json
+[INFO] - [2025-10-29 00-47-16] - Successfully read JSON Array from: src/test/resources/Login.json
+[INFO] - [2025-10-29 00-47-16] - Test started: verifyValidLogin
+[INFO] - [2025-10-29 00-47-22] - Initializing driver for test: verifyValidLogin | Browser: chrome
+[INFO] - [2025-10-29 00-47-23] - Navigated to Base URL: https://www.saucedemo.com/
+[INFO] - [2025-10-29 00-47-23] - Login page loaded successfully: https://www.saucedemo.com/
+[INFO] - [2025-10-29 00-47-23] - Clicked on input field before writing text.
+[INFO] - [2025-10-29 00-47-23] - Setting text 'standard_user' for element located by: By.id: user-name
+[INFO] - [2025-10-29 00-47-23] - Cleared existing text in the field.
+[INFO] - [2025-10-29 00-47-23] - Text 'standard_user' entered successfully.
+[INFO] - [2025-10-29 00-47-23] - Text written successfully: standard_user
+[INFO] - [2025-10-29 00-47-23] - Entered username: standard_user
+[INFO] - [2025-10-29 00-47-23] - Clicked on input field before writing text.
+[INFO] - [2025-10-29 00-47-23] - Setting text 'secret_sauce' for element located by: By.id: password
+[INFO] - [2025-10-29 00-47-23] - Cleared existing text in the field.
+[INFO] - [2025-10-29 00-47-24] - Text 'secret_sauce' entered successfully.
+[INFO] - [2025-10-29 00-47-24] - Text written successfully: secret_sauce
+[INFO] - [2025-10-29 00-47-24] - Entered password: secret_sauce
+[INFO] - [2025-10-29 00-47-24] - Scrolling to element: By.id: login-button
+[INFO] - [2025-10-29 00-47-24] - Clicking on element located by: By.id: login-button
+[INFO] - [2025-10-29 00-47-24] - Clicked on Login button.
+[INFO] - [2025-10-29 00-47-24] -  Verified: Home Page opened successfully — 'Products' title is visible.
+[INFO] - [2025-10-29 00-47-24] - Closing the Driver

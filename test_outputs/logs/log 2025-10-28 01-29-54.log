@@ -1,0 +1,5 @@
+[INFO] - [28-10-2025 01:29:54] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Kholoud\AppData\Local\JetBrains\IntelliJIdea2024.2\temp-testng-customsuite.xml
+
+[INFO] - [28-10-2025 01:29:54] [main] [utilities.common.PropertiesUtils] - Properties loaded successfully 
+[ERROR] - [28-10-2025 01:29:54] [main] [utilities.common.PropertiesUtils] - Property not found: browser

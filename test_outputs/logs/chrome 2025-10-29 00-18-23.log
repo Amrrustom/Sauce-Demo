@@ -1,0 +1,74 @@
+[INFO] - [29-10-2025 00:18:23] [main] [listeners.MethodInvocationListener] - Initializing driver for test: verifyValidLogin | Browser: chrome
+[INFO] - [29-10-2025 00:18:24] [main] [utilities.selenium.helperClasses.BrowserActions] - Navigated to Base URL: https://www.saucedemo.com/
+[INFO] - [29-10-2025 00:18:24] [main] [com.saucedemo.LoginPage] - Login page loaded successfully: https://www.saucedemo.com/
+[INFO] - [29-10-2025 00:18:24] [main] [utilities.uiElements.TextInputField] - Clicked on input field before writing text.
+[INFO] - [29-10-2025 00:18:24] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Setting text 'locked_out_user' for element located by: By.id: user-name
+[INFO] - [29-10-2025 00:18:24] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Cleared existing text in the field.
+[INFO] - [29-10-2025 00:18:24] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Text 'locked_out_user' entered successfully.
+[INFO] - [29-10-2025 00:18:24] [main] [utilities.uiElements.TextInputField] - Text written successfully: locked_out_user
+[INFO] - [29-10-2025 00:18:24] [main] [PageComponents.LoginForm] - Entered username: locked_out_user
+[INFO] - [29-10-2025 00:18:25] [main] [utilities.uiElements.TextInputField] - Clicked on input field before writing text.
+[INFO] - [29-10-2025 00:18:25] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Setting text 'secret_sauce' for element located by: By.id: password
+[INFO] - [29-10-2025 00:18:25] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Cleared existing text in the field.
+[INFO] - [29-10-2025 00:18:25] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Text 'secret_sauce' entered successfully.
+[INFO] - [29-10-2025 00:18:25] [main] [utilities.uiElements.TextInputField] - Text written successfully: secret_sauce
+[INFO] - [29-10-2025 00:18:25] [main] [PageComponents.LoginForm] - Entered password: secret_sauce
+[INFO] - [29-10-2025 00:18:25] [main] [utilities.selenium.helperClasses.JsExecutor] - Scrolling to element: By.id: login-button
+[INFO] - [29-10-2025 00:18:25] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Clicking on element located by: By.id: login-button
+[INFO] - [29-10-2025 00:18:25] [main] [PageComponents.LoginForm] - Clicked on Login button.
+[ERROR] - [29-10-2025 00:18:35] [main] [com.saucedemo.HomePage] -  Home Page did not load properly — 'Products' title not visible.
+[ERROR] - [29-10-2025 00:18:35] [main] [utilities.common.assertions.CustomSoftAssert] - Custom Soft Assertion Failed: Custom Soft Assertion
+	Home page did not load successfully after valid login. expected [true] but found [false]
+[INFO] - [29-10-2025 00:18:35] [main] [utilities.selenium.driver.WebDriverManager] - Closing the Driver
+[INFO] - [29-10-2025 00:18:36] [main] [listeners.TestResultListener] - Test failed: verifyValidLogin
+[INFO] - [29-10-2025 00:18:36] [main] [utilities.common.JsonUtils] - Reading JSON file from path: src/test/resources/Login.json
+[INFO] - [29-10-2025 00:18:36] [main] [utilities.common.JsonUtils] - Successfully read JSON Array from: src/test/resources/Login.json
+[INFO] - [29-10-2025 00:18:36] [main] [listeners.TestResultListener] - Test started: verifyInvalidLogin
+[INFO] - [29-10-2025 00:18:39] [main] [listeners.MethodInvocationListener] - Initializing driver for test: verifyInvalidLogin | Browser: chrome
+[INFO] - [29-10-2025 00:18:39] [main] [utilities.selenium.helperClasses.BrowserActions] - Navigated to Base URL: https://www.saucedemo.com/
+[INFO] - [29-10-2025 00:18:39] [main] [com.saucedemo.LoginPage] - Login page loaded successfully: https://www.saucedemo.com/
+[INFO] - [29-10-2025 00:18:39] [main] [utilities.uiElements.TextInputField] - Clicked on input field before writing text.
+[INFO] - [29-10-2025 00:18:39] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Setting text 'invalid_user' for element located by: By.id: user-name
+[INFO] - [29-10-2025 00:18:39] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Cleared existing text in the field.
+[INFO] - [29-10-2025 00:18:39] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Text 'invalid_user' entered successfully.
+[INFO] - [29-10-2025 00:18:39] [main] [utilities.uiElements.TextInputField] - Text written successfully: invalid_user
+[INFO] - [29-10-2025 00:18:39] [main] [PageComponents.LoginForm] - Entered username: invalid_user
+[INFO] - [29-10-2025 00:18:40] [main] [utilities.uiElements.TextInputField] - Clicked on input field before writing text.
+[INFO] - [29-10-2025 00:18:40] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Setting text 'wrong_password' for element located by: By.id: password
+[INFO] - [29-10-2025 00:18:40] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Cleared existing text in the field.
+[INFO] - [29-10-2025 00:18:40] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Text 'wrong_password' entered successfully.
+[INFO] - [29-10-2025 00:18:40] [main] [utilities.uiElements.TextInputField] - Text written successfully: wrong_password
+[INFO] - [29-10-2025 00:18:40] [main] [PageComponents.LoginForm] - Entered password: wrong_password
+[INFO] - [29-10-2025 00:18:40] [main] [utilities.selenium.helperClasses.JsExecutor] - Scrolling to element: By.id: login-button
+[INFO] - [29-10-2025 00:18:40] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Clicking on element located by: By.id: login-button
+[INFO] - [29-10-2025 00:18:40] [main] [PageComponents.LoginForm] - Clicked on Login button.
+[INFO] - [29-10-2025 00:18:40] [main] [utilities.uiElements.UiElement] - Checking if element is displayed: By.cssSelector: #login_button_container > div > form > div.error-message-container.error
+[INFO] - [29-10-2025 00:18:40] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Finding elements located by: By.cssSelector: #login_button_container > div > form > div.error-message-container.error
+[INFO] - [29-10-2025 00:18:40] [main] [PageComponents.LoginForm] - Error message is displayed: true
+[INFO] - [29-10-2025 00:18:40] [main] [utilities.uiElements.UiElement] - Checking if element is displayed: By.cssSelector: #login_button_container > div > form > div.error-message-container.error
+[INFO] - [29-10-2025 00:18:40] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Finding elements located by: By.cssSelector: #login_button_container > div > form > div.error-message-container.error
+[INFO] - [29-10-2025 00:18:40] [main] [utilities.selenium.helperClasses.Gets] - Fetching inner text for element located by: By.cssSelector: #login_button_container > div > form > div.error-message-container.error
+[INFO] - [29-10-2025 00:18:40] [main] [utilities.selenium.helperClasses.Gets] - Inner text fetched: Epic sadface: Username and password do not match any user in this service
+[INFO] - [29-10-2025 00:18:40] [main] [utilities.selenium.driver.WebDriverManager] - Closing the Driver
+[INFO] - [29-10-2025 00:18:41] [main] [listeners.TestResultListener] - Test passed: verifyInvalidLogin
+[INFO] - [29-10-2025 00:18:41] [main] [utilities.common.JsonUtils] - Reading JSON file from path: src/test/resources/Login.json
+[INFO] - [29-10-2025 00:18:41] [main] [utilities.common.JsonUtils] - Successfully read JSON Array from: src/test/resources/Login.json
+[INFO] - [29-10-2025 00:18:41] [main] [listeners.TestResultListener] - Test started: loginAndAddTwoItemsToCart
+[INFO] - [29-10-2025 00:18:43] [main] [listeners.MethodInvocationListener] - Initializing driver for test: loginAndAddTwoItemsToCart | Browser: chrome
+[INFO] - [29-10-2025 00:18:43] [main] [utilities.selenium.helperClasses.BrowserActions] - Navigated to Base URL: https://www.saucedemo.com/
+[INFO] - [29-10-2025 00:18:43] [main] [com.saucedemo.LoginPage] - Login page loaded successfully: https://www.saucedemo.com/
+[INFO] - [29-10-2025 00:18:44] [main] [utilities.uiElements.TextInputField] - Clicked on input field before writing text.
+[INFO] - [29-10-2025 00:18:44] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Setting text 'locked_out_user' for element located by: By.id: user-name
+[INFO] - [29-10-2025 00:18:44] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Cleared existing text in the field.
+[INFO] - [29-10-2025 00:18:44] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Text 'locked_out_user' entered successfully.
+[INFO] - [29-10-2025 00:18:44] [main] [utilities.uiElements.TextInputField] - Text written successfully: locked_out_user
+[INFO] - [29-10-2025 00:18:44] [main] [PageComponents.LoginForm] - Entered username: locked_out_user
+[INFO] - [29-10-2025 00:18:44] [main] [utilities.uiElements.TextInputField] - Clicked on input field before writing text.
+[INFO] - [29-10-2025 00:18:44] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Setting text 'secret_sauce' for element located by: By.id: password
+[INFO] - [29-10-2025 00:18:44] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Cleared existing text in the field.
+[INFO] - [29-10-2025 00:18:44] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Text 'secret_sauce' entered successfully.
+[INFO] - [29-10-2025 00:18:44] [main] [utilities.uiElements.TextInputField] - Text written successfully: secret_sauce
+[INFO] - [29-10-2025 00:18:44] [main] [PageComponents.LoginForm] - Entered password: secret_sauce
+[INFO] - [29-10-2025 00:18:44] [main] [utilities.selenium.helperClasses.JsExecutor] - Scrolling to element: By.id: login-button
+[INFO] - [29-10-2025 00:18:45] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Clicking on element located by: By.id: login-button
+[INFO] - [29-10-2025 00:18:45] [main] [PageComponents.LoginForm] - Clicked on Login button.

@@ -1,0 +1,30 @@
+[INFO] - [2025-10-29 00-47-25] - Test passed: verifyValidLogin
+[INFO] - [2025-10-29 00-47-25] - Reading JSON file from path: src/test/resources/Login.json
+[INFO] - [2025-10-29 00-47-25] - Successfully read JSON Array from: src/test/resources/Login.json
+[INFO] - [2025-10-29 00-47-25] - Test started: verifyInvalidLogin
+[INFO] - [2025-10-29 00-47-28] - Initializing driver for test: verifyInvalidLogin | Browser: chrome
+[INFO] - [2025-10-29 00-47-28] - Navigated to Base URL: https://www.saucedemo.com/
+[INFO] - [2025-10-29 00-47-28] - Login page loaded successfully: https://www.saucedemo.com/
+[INFO] - [2025-10-29 00-47-28] - Clicked on input field before writing text.
+[INFO] - [2025-10-29 00-47-28] - Setting text 'invalid_user' for element located by: By.id: user-name
+[INFO] - [2025-10-29 00-47-28] - Cleared existing text in the field.
+[INFO] - [2025-10-29 00-47-28] - Text 'invalid_user' entered successfully.
+[INFO] - [2025-10-29 00-47-28] - Text written successfully: invalid_user
+[INFO] - [2025-10-29 00-47-28] - Entered username: invalid_user
+[INFO] - [2025-10-29 00-47-29] - Clicked on input field before writing text.
+[INFO] - [2025-10-29 00-47-29] - Setting text 'wrong_password' for element located by: By.id: password
+[INFO] - [2025-10-29 00-47-29] - Cleared existing text in the field.
+[INFO] - [2025-10-29 00-47-29] - Text 'wrong_password' entered successfully.
+[INFO] - [2025-10-29 00-47-29] - Text written successfully: wrong_password
+[INFO] - [2025-10-29 00-47-29] - Entered password: wrong_password
+[INFO] - [2025-10-29 00-47-29] - Scrolling to element: By.id: login-button
+[INFO] - [2025-10-29 00-47-29] - Clicking on element located by: By.id: login-button
+[INFO] - [2025-10-29 00-47-29] - Clicked on Login button.
+[INFO] - [2025-10-29 00-47-29] - Checking if element is displayed: By.cssSelector: #login_button_container > div > form > div.error-message-container.error
+[INFO] - [2025-10-29 00-47-29] - Finding elements located by: By.cssSelector: #login_button_container > div > form > div.error-message-container.error
+[INFO] - [2025-10-29 00-47-29] - Error message is displayed: true
+[INFO] - [2025-10-29 00-47-29] - Checking if element is displayed: By.cssSelector: #login_button_container > div > form > div.error-message-container.error
+[INFO] - [2025-10-29 00-47-29] - Finding elements located by: By.cssSelector: #login_button_container > div > form > div.error-message-container.error
+[INFO] - [2025-10-29 00-47-29] - Fetching inner text for element located by: By.cssSelector: #login_button_container > div > form > div.error-message-container.error
+[INFO] - [2025-10-29 00-47-29] - Inner text fetched: Epic sadface: Username and password do not match any user in this service
+[INFO] - [2025-10-29 00-47-29] - Closing the Driver

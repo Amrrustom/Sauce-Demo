@@ -1,0 +1,16 @@
+[INFO] - [27-10-2025 14:48:50] [main] [utilities.common.PropertiesUtils] - Loading test properties from: src\main\resources\properties\testConfig.properties
+[INFO] - [27-10-2025 14:48:50] [main] [utilities.common.PropertiesUtils] - Properties loaded successfully 
+[INFO] - [27-10-2025 14:48:50] [main] [utilities.common.FilesUtils] - Directory already exists: test_outputs\logs
+[INFO] - [27-10-2025 14:48:50] [main] [utilities.common.FilesUtils] - Directory created successfully: test_outputs\allure_results
+[INFO] - [27-10-2025 14:48:50] [main] [utilities.common.FilesUtils] - Directory created successfully: test_outputs\screenshots
+[INFO] - [27-10-2025 14:48:50] [main] [utilities.common.FilesUtils] - Directory created successfully: test_outputs\allure_report
+[INFO] - [27-10-2025 14:48:50] [main] [utilities.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\demoblaze-master\test_outputs\allure_results
+[INFO] - [27-10-2025 14:48:50] [main] [utilities.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\demoblaze-master\test_outputs\screenshots
+[ERROR] - [27-10-2025 14:48:50] [main] [utilities.common.PropertiesUtils] - Property not found: environmentType
+[ERROR] - [27-10-2025 14:48:50] [main] [utilities.common.PropertiesUtils] - Property not found: appTitle
+[ERROR] - [27-10-2025 14:48:50] [main] [utilities.common.PropertiesUtils] - Property not found: url
+[ERROR] - [27-10-2025 14:48:50] [main] [utilities.common.PropertiesUtils] - Property not found: SqlServerName
+[ERROR] - [27-10-2025 14:48:50] [main] [utilities.common.PropertiesUtils] - Property not found: database
+[ERROR] - [27-10-2025 14:48:50] [main] [utilities.common.PropertiesUtils] - Property not found: SqlUserName
+[ERROR] - [27-10-2025 14:48:50] [main] [utilities.common.PropertiesUtils] - Property not found: SqlPassword
+[ERROR] - [27-10-2025 14:48:58] [main] [utilities.common.SqlServerUtils] - Failed to connect to SQL Server: The TCP/IP connection to the host null, port 1433 has failed. Error: "No such host is known (null). Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".

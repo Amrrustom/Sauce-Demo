@@ -1,0 +1,29 @@
+[INFO] - [28-10-2025 17:45:06] [main] [listeners.MethodInvocationListener] - Initializing driver for test: verifySuccessfulLogin | Browser: chrome
+[INFO] - [28-10-2025 17:45:07] [main] [utilities.selenium.helperClasses.BrowserActions] - Navigated to Base URL: https://www.saucedemo.com/
+[INFO] - [28-10-2025 17:45:07] [main] [com.saucedemo.LoginPage] - Login page loaded successfully: https://www.saucedemo.com/
+[INFO] - [28-10-2025 17:45:07] [main] [utilities.uiElements.TextInputField] - Clicked on input field before writing text.
+[INFO] - [28-10-2025 17:45:07] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Setting text 'standard_user' for element located by: By.id: user-name
+[INFO] - [28-10-2025 17:45:07] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Cleared existing text in the field.
+[INFO] - [28-10-2025 17:45:07] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Text 'standard_user' entered successfully.
+[INFO] - [28-10-2025 17:45:07] [main] [utilities.uiElements.TextInputField] - Text written successfully: standard_user
+[INFO] - [28-10-2025 17:45:07] [main] [PageComponents.LoginForm] - Entered username: standard_user
+[INFO] - [28-10-2025 17:45:07] [main] [utilities.uiElements.TextInputField] - Clicked on input field before writing text.
+[INFO] - [28-10-2025 17:45:07] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Setting text 'secret_sauce' for element located by: By.id: password
+[INFO] - [28-10-2025 17:45:07] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Cleared existing text in the field.
+[INFO] - [28-10-2025 17:45:07] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Text 'secret_sauce' entered successfully.
+[INFO] - [28-10-2025 17:45:07] [main] [utilities.uiElements.TextInputField] - Text written successfully: secret_sauce
+[INFO] - [28-10-2025 17:45:07] [main] [PageComponents.LoginForm] - Entered password: secret_sauce
+[INFO] - [28-10-2025 17:45:08] [main] [utilities.selenium.helperClasses.JsExecutor] - Scrolling to element: By.id: login-button
+[INFO] - [28-10-2025 17:45:08] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Clicking on element located by: By.id: login-button
+[INFO] - [28-10-2025 17:45:08] [main] [PageComponents.LoginForm] - Clicked on Login button.
+[INFO] - [28-10-2025 17:45:08] [main] [com.saucedemo.HomePage] -  Verified: Home Page opened successfully — 'Products' title is visible.
+[INFO] - [28-10-2025 17:45:08] [main] [utilities.selenium.driver.WebDriverManager] - Closing the Driver
+[INFO] - [28-10-2025 17:45:08] [main] [listeners.TestResultListener] - Test passed: verifySuccessfulLogin
+[INFO] - [28-10-2025 17:45:09] [main] [listeners.TestResultListener] - Test run finished
+[INFO] - [28-10-2025 17:45:12] [main] [utilities.common.TerminalUtils] - Command executed: allure generate test_outputs/allure_results -o test_outputs/allure_report --clean --single-file
+[INFO] - [28-10-2025 17:45:12] [main] [utilities.common.AllureUtils] - Allure report generated successfully
+[INFO] - [28-10-2025 17:45:12] [main] [utilities.common.FilesUtils] - Found latest file in test_outputs\allure_report: test_outputs\allure_report\index.html
+[INFO] - [28-10-2025 17:45:12] [main] [utilities.common.FilesUtils] - File renamed successfully from test_outputs\allure_report\index.html to test_outputs\allure_report\Report 2025-10-28 17-45-12.html
+[INFO] - [28-10-2025 17:45:12] [main] [utilities.common.AllureUtils] - Allure report renamed successfully to: test_outputs\allure_report\Report 2025-10-28 17-45-12.html
+[INFO] - [28-10-2025 17:45:12] [main] [utilities.common.AllureUtils] - Opening allure report: test_outputs\allure_report\Report 2025-10-28 17-45-12.html
+[INFO] - [28-10-2025 17:45:12] [main] [utilities.common.TerminalUtils] - Command executed: start "" "test_outputs\allure_report\Report 2025-10-28 17-45-12.html"

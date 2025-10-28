@@ -1,0 +1,126 @@
+[INFO] - [29-10-2025 00:10:02] [main] [listeners.MethodInvocationListener] - Initializing driver for test: checkoutScenario | Browser: chrome
+[INFO] - [29-10-2025 00:10:03] [main] [utilities.selenium.helperClasses.BrowserActions] - Navigated to Base URL: https://www.saucedemo.com/
+[INFO] - [29-10-2025 00:10:03] [main] [com.saucedemo.LoginPage] - Login page loaded successfully: https://www.saucedemo.com/
+[INFO] - [29-10-2025 00:10:03] [main] [utilities.uiElements.TextInputField] - Clicked on input field before writing text.
+[INFO] - [29-10-2025 00:10:03] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Setting text 'standard_user' for element located by: By.id: user-name
+[INFO] - [29-10-2025 00:10:03] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Cleared existing text in the field.
+[INFO] - [29-10-2025 00:10:03] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Text 'standard_user' entered successfully.
+[INFO] - [29-10-2025 00:10:03] [main] [utilities.uiElements.TextInputField] - Text written successfully: standard_user
+[INFO] - [29-10-2025 00:10:03] [main] [PageComponents.LoginForm] - Entered username: standard_user
+[INFO] - [29-10-2025 00:10:04] [main] [utilities.uiElements.TextInputField] - Clicked on input field before writing text.
+[INFO] - [29-10-2025 00:10:04] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Setting text 'secret_sauce' for element located by: By.id: password
+[INFO] - [29-10-2025 00:10:04] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Cleared existing text in the field.
+[INFO] - [29-10-2025 00:10:04] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Text 'secret_sauce' entered successfully.
+[INFO] - [29-10-2025 00:10:04] [main] [utilities.uiElements.TextInputField] - Text written successfully: secret_sauce
+[INFO] - [29-10-2025 00:10:04] [main] [PageComponents.LoginForm] - Entered password: secret_sauce
+[INFO] - [29-10-2025 00:10:04] [main] [utilities.selenium.helperClasses.JsExecutor] - Scrolling to element: By.id: login-button
+[INFO] - [29-10-2025 00:10:04] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Clicking on element located by: By.id: login-button
+[INFO] - [29-10-2025 00:10:04] [main] [PageComponents.LoginForm] - Clicked on Login button.
+[INFO] - [29-10-2025 00:10:04] [main] [com.saucedemo.HomePage] -  Verified: Home Page opened successfully — 'Products' title is visible.
+[INFO] - [29-10-2025 00:10:04] [main] [utilities.selenium.helperClasses.BrowserActions] - Clicked element with ID: add-to-cart-sauce-labs-backpack
+[INFO] - [29-10-2025 00:10:04] [main] [utilities.selenium.helperClasses.BrowserActions] - Clicked element with ID: add-to-cart-sauce-labs-bike-light
+[INFO] - [29-10-2025 00:10:04] [main] [utilities.selenium.helperClasses.BrowserActions] - Found element: By.cssSelector: #shopping_cart_container > a > span
+[INFO] - [29-10-2025 00:10:04] [main] [utilities.selenium.helperClasses.BrowserActions] - Found element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [29-10-2025 00:10:04] [main] [utilities.selenium.helperClasses.BrowserActions] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [29-10-2025 00:10:04] [main] [utilities.selenium.helperClasses.BrowserActions] - Found element: By.cssSelector: #cart_contents_container
+[INFO] - [29-10-2025 00:10:04] [main] [utilities.selenium.helperClasses.BrowserActions] - Found element: By.id: checkout
+[INFO] - [29-10-2025 00:10:05] [main] [utilities.selenium.helperClasses.BrowserActions] - Clicked on element: By.id: checkout
+[INFO] - [29-10-2025 00:10:05] [main] [PageComponents.CheckOut] - Checkout page opened.
+[INFO] - [29-10-2025 00:10:05] [main] [utilities.selenium.helperClasses.BrowserActions] - Typed text 'Kholoud' into element: By.id: first-name
+[INFO] - [29-10-2025 00:10:05] [main] [utilities.selenium.helperClasses.BrowserActions] - Typed text 'Ahmed' into element: By.id: last-name
+[INFO] - [29-10-2025 00:10:05] [main] [utilities.selenium.helperClasses.BrowserActions] - Typed text '12345' into element: By.id: postal-code
+[INFO] - [29-10-2025 00:10:05] [main] [PageComponents.CheckOut] - Checkout form filled with: Kholoud Ahmed 12345
+[INFO] - [29-10-2025 00:10:05] [main] [utilities.selenium.helperClasses.BrowserActions] - Found element: By.id: continue
+[INFO] - [29-10-2025 00:10:05] [main] [utilities.selenium.helperClasses.BrowserActions] - Clicked on element: By.id: continue
+[INFO] - [29-10-2025 00:10:05] [main] [utilities.selenium.helperClasses.BrowserActions] - Found element: By.cssSelector: #checkout_summary_container > div > div.summary_info > div:nth-child(3)
+[INFO] - [29-10-2025 00:10:05] [main] [utilities.selenium.helperClasses.BrowserActions] - Found 2 elements: By.cssSelector: .inventory_item_name
+[INFO] - [29-10-2025 00:10:05] [main] [utilities.selenium.helperClasses.BrowserActions] - Found element: By.id: finish
+[INFO] - [29-10-2025 00:10:05] [main] [utilities.selenium.helperClasses.BrowserActions] - Clicked on element: By.id: finish
+[INFO] - [29-10-2025 00:10:06] [main] [PageComponents.CheckOut] - Checkout finished.
+[INFO] - [29-10-2025 00:10:06] [main] [utilities.selenium.driver.WebDriverManager] - Closing the Driver
+[INFO] - [29-10-2025 00:10:06] [main] [listeners.TestResultListener] - Test skipped: checkoutScenario
+[INFO] - [29-10-2025 00:10:07] [main] [listeners.TestResultListener] - Test started: checkoutScenario
+[INFO] - [29-10-2025 00:10:10] [main] [listeners.MethodInvocationListener] - Initializing driver for test: checkoutScenario | Browser: chrome
+[INFO] - [29-10-2025 00:10:10] [main] [utilities.selenium.helperClasses.BrowserActions] - Navigated to Base URL: https://www.saucedemo.com/
+[INFO] - [29-10-2025 00:10:10] [main] [com.saucedemo.LoginPage] - Login page loaded successfully: https://www.saucedemo.com/
+[INFO] - [29-10-2025 00:10:10] [main] [utilities.uiElements.TextInputField] - Clicked on input field before writing text.
+[INFO] - [29-10-2025 00:10:10] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Setting text 'standard_user' for element located by: By.id: user-name
+[INFO] - [29-10-2025 00:10:10] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Cleared existing text in the field.
+[INFO] - [29-10-2025 00:10:10] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Text 'standard_user' entered successfully.
+[INFO] - [29-10-2025 00:10:10] [main] [utilities.uiElements.TextInputField] - Text written successfully: standard_user
+[INFO] - [29-10-2025 00:10:10] [main] [PageComponents.LoginForm] - Entered username: standard_user
+[INFO] - [29-10-2025 00:10:11] [main] [utilities.uiElements.TextInputField] - Clicked on input field before writing text.
+[INFO] - [29-10-2025 00:10:11] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Setting text 'secret_sauce' for element located by: By.id: password
+[INFO] - [29-10-2025 00:10:11] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Cleared existing text in the field.
+[INFO] - [29-10-2025 00:10:11] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Text 'secret_sauce' entered successfully.
+[INFO] - [29-10-2025 00:10:11] [main] [utilities.uiElements.TextInputField] - Text written successfully: secret_sauce
+[INFO] - [29-10-2025 00:10:11] [main] [PageComponents.LoginForm] - Entered password: secret_sauce
+[INFO] - [29-10-2025 00:10:11] [main] [utilities.selenium.helperClasses.JsExecutor] - Scrolling to element: By.id: login-button
+[INFO] - [29-10-2025 00:10:11] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Clicking on element located by: By.id: login-button
+[INFO] - [29-10-2025 00:10:11] [main] [PageComponents.LoginForm] - Clicked on Login button.
+[INFO] - [29-10-2025 00:10:11] [main] [com.saucedemo.HomePage] -  Verified: Home Page opened successfully — 'Products' title is visible.
+[INFO] - [29-10-2025 00:10:11] [main] [utilities.selenium.helperClasses.BrowserActions] - Clicked element with ID: add-to-cart-sauce-labs-backpack
+[INFO] - [29-10-2025 00:10:11] [main] [utilities.selenium.helperClasses.BrowserActions] - Clicked element with ID: add-to-cart-sauce-labs-bike-light
+[INFO] - [29-10-2025 00:10:11] [main] [utilities.selenium.helperClasses.BrowserActions] - Found element: By.cssSelector: #shopping_cart_container > a > span
+[INFO] - [29-10-2025 00:10:11] [main] [utilities.selenium.helperClasses.BrowserActions] - Found element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [29-10-2025 00:10:11] [main] [utilities.selenium.helperClasses.BrowserActions] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [29-10-2025 00:10:11] [main] [utilities.selenium.helperClasses.BrowserActions] - Found element: By.cssSelector: #cart_contents_container
+[INFO] - [29-10-2025 00:10:11] [main] [utilities.selenium.helperClasses.BrowserActions] - Found element: By.id: checkout
+[INFO] - [29-10-2025 00:10:12] [main] [utilities.selenium.helperClasses.BrowserActions] - Clicked on element: By.id: checkout
+[INFO] - [29-10-2025 00:10:12] [main] [PageComponents.CheckOut] - Checkout page opened.
+[INFO] - [29-10-2025 00:10:12] [main] [utilities.selenium.helperClasses.BrowserActions] - Typed text 'Kholoud' into element: By.id: first-name
+[INFO] - [29-10-2025 00:10:12] [main] [utilities.selenium.helperClasses.BrowserActions] - Typed text 'Ahmed' into element: By.id: last-name
+[INFO] - [29-10-2025 00:10:12] [main] [utilities.selenium.helperClasses.BrowserActions] - Typed text '12345' into element: By.id: postal-code
+[INFO] - [29-10-2025 00:10:12] [main] [PageComponents.CheckOut] - Checkout form filled with: Kholoud Ahmed 12345
+[INFO] - [29-10-2025 00:10:12] [main] [utilities.selenium.helperClasses.BrowserActions] - Found element: By.id: continue
+[INFO] - [29-10-2025 00:10:12] [main] [utilities.selenium.helperClasses.BrowserActions] - Clicked on element: By.id: continue
+[INFO] - [29-10-2025 00:10:12] [main] [utilities.selenium.helperClasses.BrowserActions] - Found element: By.cssSelector: #checkout_summary_container > div > div.summary_info > div:nth-child(3)
+[INFO] - [29-10-2025 00:10:12] [main] [utilities.selenium.helperClasses.BrowserActions] - Found 2 elements: By.cssSelector: .inventory_item_name
+[INFO] - [29-10-2025 00:10:13] [main] [utilities.selenium.helperClasses.BrowserActions] - Found element: By.id: finish
+[INFO] - [29-10-2025 00:10:13] [main] [utilities.selenium.helperClasses.BrowserActions] - Clicked on element: By.id: finish
+[INFO] - [29-10-2025 00:10:13] [main] [PageComponents.CheckOut] - Checkout finished.
+[INFO] - [29-10-2025 00:10:13] [main] [utilities.selenium.helperClasses.BrowserActions] - Found element: By.cssSelector: #checkout_complete_container > h2
+[INFO] - [29-10-2025 00:10:13] [main] [utilities.selenium.helperClasses.BrowserActions] - Found element: By.id: back-to-products
+[INFO] - [29-10-2025 00:10:13] [main] [utilities.selenium.helperClasses.BrowserActions] - Clicked on element: By.id: back-to-products
+[INFO] - [29-10-2025 00:10:13] [main] [utilities.selenium.helperClasses.BrowserActions] - Found element: By.cssSelector: #header_container > div.header_secondary_container > span
+[INFO] - [29-10-2025 00:10:13] [main] [utilities.selenium.driver.WebDriverManager] - Closing the Driver
+[INFO] - [29-10-2025 00:10:13] [main] [listeners.TestResultListener] - Test passed: checkoutScenario
+[INFO] - [29-10-2025 00:10:13] [main] [listeners.TestResultListener] - Test started: checkoutScenario
+[INFO] - [29-10-2025 00:10:17] [main] [listeners.MethodInvocationListener] - Initializing driver for test: checkoutScenario | Browser: chrome
+[INFO] - [29-10-2025 00:10:17] [main] [utilities.selenium.helperClasses.BrowserActions] - Navigated to Base URL: https://www.saucedemo.com/
+[INFO] - [29-10-2025 00:10:17] [main] [com.saucedemo.LoginPage] - Login page loaded successfully: https://www.saucedemo.com/
+[INFO] - [29-10-2025 00:10:17] [main] [utilities.uiElements.TextInputField] - Clicked on input field before writing text.
+[INFO] - [29-10-2025 00:10:17] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Setting text 'invalid_user' for element located by: By.id: user-name
+[INFO] - [29-10-2025 00:10:18] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Cleared existing text in the field.
+[INFO] - [29-10-2025 00:10:18] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Text 'invalid_user' entered successfully.
+[INFO] - [29-10-2025 00:10:18] [main] [utilities.uiElements.TextInputField] - Text written successfully: invalid_user
+[INFO] - [29-10-2025 00:10:18] [main] [PageComponents.LoginForm] - Entered username: invalid_user
+[INFO] - [29-10-2025 00:10:18] [main] [utilities.uiElements.TextInputField] - Clicked on input field before writing text.
+[INFO] - [29-10-2025 00:10:18] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Setting text 'wrong_password' for element located by: By.id: password
+[INFO] - [29-10-2025 00:10:18] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Cleared existing text in the field.
+[INFO] - [29-10-2025 00:10:18] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Text 'wrong_password' entered successfully.
+[INFO] - [29-10-2025 00:10:18] [main] [utilities.uiElements.TextInputField] - Text written successfully: wrong_password
+[INFO] - [29-10-2025 00:10:18] [main] [PageComponents.LoginForm] - Entered password: wrong_password
+[INFO] - [29-10-2025 00:10:18] [main] [utilities.selenium.helperClasses.JsExecutor] - Scrolling to element: By.id: login-button
+[INFO] - [29-10-2025 00:10:18] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Clicking on element located by: By.id: login-button
+[INFO] - [29-10-2025 00:10:18] [main] [PageComponents.LoginForm] - Clicked on Login button.
+[ERROR] - [29-10-2025 00:10:25] [main] [com.saucedemo.HomePage] -  Home Page did not load properly — 'Products' title not visible.
+[ERROR] - [29-10-2025 00:10:25] [main] [utilities.selenium.helperClasses.BrowserActions] - Failed to click element with ID: add-to-cart-sauce-labs-backpack | invalid session id
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2516b09034e252bc1bd28ddf105293fe, findElement {value=add-to-cart-sauce-labs-backpack, using=id}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\Kholoud\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49746}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49746/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2516b09034e252bc1bd28ddf105293fe
+[ERROR] - [29-10-2025 00:10:25] [main] [utilities.common.assertions.CustomSoftAssert] - Custom Soft Assertion Failed: Custom Soft Assertion
+	Home page did not load successfully after login. expected [true] but found [false]
+[INFO] - [29-10-2025 00:10:25] [main] [utilities.selenium.driver.WebDriverManager] - Closing the Driver
+[INFO] - [29-10-2025 00:10:25] [main] [listeners.TestResultListener] - Test failed: checkoutScenario
+[INFO] - [29-10-2025 00:10:26] [main] [listeners.TestResultListener] - Test run finished
+[INFO] - [29-10-2025 00:10:29] [main] [utilities.common.TerminalUtils] - Command executed: allure generate test_outputs/allure_results -o test_outputs/allure_report --clean --single-file
+[INFO] - [29-10-2025 00:10:29] [main] [utilities.common.AllureUtils] - Allure report generated successfully
+[INFO] - [29-10-2025 00:10:29] [main] [utilities.common.FilesUtils] - Found latest file in test_outputs\allure_report: test_outputs\allure_report\index.html
+[INFO] - [29-10-2025 00:10:29] [main] [utilities.common.FilesUtils] - File renamed successfully from test_outputs\allure_report\index.html to test_outputs\allure_report\Report 2025-10-29 00-10-29.html
+[INFO] - [29-10-2025 00:10:29] [main] [utilities.common.AllureUtils] - Allure report renamed successfully to: test_outputs\allure_report\Report 2025-10-29 00-10-29.html
+[INFO] - [29-10-2025 00:10:29] [main] [utilities.common.AllureUtils] - Opening allure report: test_outputs\allure_report\Report 2025-10-29 00-10-29.html
+[INFO] - [29-10-2025 00:10:29] [main] [utilities.common.TerminalUtils] - Command executed: start "" "test_outputs\allure_report\Report 2025-10-29 00-10-29.html"

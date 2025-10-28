@@ -1,0 +1,37 @@
+[INFO] - [29-10-2025 00:13:27] [main] [listeners.MethodInvocationListener] - Initializing driver for test: checkoutScenario | Browser: chrome
+[INFO] - [29-10-2025 00:13:28] [main] [utilities.selenium.helperClasses.BrowserActions] - Navigated to Base URL: https://www.saucedemo.com/
+[INFO] - [29-10-2025 00:13:28] [main] [com.saucedemo.LoginPage] - Login page loaded successfully: https://www.saucedemo.com/
+[INFO] - [29-10-2025 00:13:28] [main] [utilities.uiElements.TextInputField] - Clicked on input field before writing text.
+[INFO] - [29-10-2025 00:13:28] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Setting text 'standard_user' for element located by: By.id: user-name
+[INFO] - [29-10-2025 00:13:29] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Cleared existing text in the field.
+[INFO] - [29-10-2025 00:13:29] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Text 'standard_user' entered successfully.
+[INFO] - [29-10-2025 00:13:29] [main] [utilities.uiElements.TextInputField] - Text written successfully: standard_user
+[INFO] - [29-10-2025 00:13:29] [main] [PageComponents.LoginForm] - Entered username: standard_user
+[INFO] - [29-10-2025 00:13:29] [main] [utilities.uiElements.TextInputField] - Clicked on input field before writing text.
+[INFO] - [29-10-2025 00:13:29] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Setting text 'secret_sauce' for element located by: By.id: password
+[INFO] - [29-10-2025 00:13:29] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Cleared existing text in the field.
+[INFO] - [29-10-2025 00:13:29] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Text 'secret_sauce' entered successfully.
+[INFO] - [29-10-2025 00:13:29] [main] [utilities.uiElements.TextInputField] - Text written successfully: secret_sauce
+[INFO] - [29-10-2025 00:13:29] [main] [PageComponents.LoginForm] - Entered password: secret_sauce
+[INFO] - [29-10-2025 00:13:29] [main] [utilities.selenium.helperClasses.JsExecutor] - Scrolling to element: By.id: login-button
+[INFO] - [29-10-2025 00:13:29] [main] [utilities.selenium.helperClasses.SimpleElementActions] - Clicking on element located by: By.id: login-button
+[INFO] - [29-10-2025 00:13:29] [main] [PageComponents.LoginForm] - Clicked on Login button.
+[INFO] - [29-10-2025 00:13:29] [main] [com.saucedemo.HomePage] -  Verified: Home Page opened successfully — 'Products' title is visible.
+[INFO] - [29-10-2025 00:13:29] [main] [utilities.selenium.helperClasses.BrowserActions] - Clicked element with ID: add-to-cart-sauce-labs-backpack
+[INFO] - [29-10-2025 00:13:29] [main] [utilities.selenium.helperClasses.BrowserActions] - Clicked element with ID: add-to-cart-sauce-labs-bike-light
+[INFO] - [29-10-2025 00:13:29] [main] [utilities.selenium.helperClasses.BrowserActions] - Found element: By.cssSelector: #shopping_cart_container > a > span
+[INFO] - [29-10-2025 00:13:30] [main] [utilities.selenium.helperClasses.BrowserActions] - Found element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [29-10-2025 00:13:30] [main] [utilities.selenium.helperClasses.BrowserActions] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [29-10-2025 00:13:30] [main] [utilities.selenium.helperClasses.BrowserActions] - Found element: By.cssSelector: #cart_contents_container
+[INFO] - [29-10-2025 00:13:30] [main] [utilities.selenium.helperClasses.BrowserActions] - Found element: By.id: checkout
+[INFO] - [29-10-2025 00:13:30] [main] [utilities.selenium.helperClasses.BrowserActions] - Clicked on element: By.id: checkout
+[INFO] - [29-10-2025 00:13:30] [main] [PageComponents.CheckOut] - Checkout page opened.
+[ERROR] - [29-10-2025 00:13:35] [main] [utilities.selenium.helperClasses.BrowserActions] - Failed to type text 'Kholoud' into element: By.id: first-name | Expected condition failed: waiting for element to be clickable: By.id: first-name (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\Kholoud\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56168}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56168/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 65b758c2a2c0dd98a256ce88e7b65c49
+[INFO] - [29-10-2025 00:13:35] [main] [utilities.selenium.driver.WebDriverManager] - Closing the Driver
+[INFO] - [29-10-2025 00:13:36] [main] [listeners.TestResultListener] - Test failed: checkoutScenario
+[INFO] - [29-10-2025 00:13:36] [main] [listeners.TestResultListener] - Test run finished

@@ -1,0 +1,33 @@
+[ERROR] - [28-10-2025 18:11:26] [main] [utilities.common.PropertiesUtils] - Property not found: baseUrl
+[INFO] - [28-10-2025 18:11:26] [main] [listeners.MethodInvocationListener] - Initializing driver for test: verifyInvalidLogin | Browser: chrome
+[INFO] - [28-10-2025 18:11:26] [main] [utilities.selenium.driver.WebDriverManager] - Closing the Driver
+[INFO] - [28-10-2025 18:11:26] [main] [listeners.TestResultListener] - Test passed: verifyInvalidLogin
+[INFO] - [28-10-2025 18:11:26] [main] [listeners.TestResultListener] - Test started: verifyInvalidLogin
+[ERROR] - [28-10-2025 18:11:28] [main] [utilities.common.PropertiesUtils] - Property not found: baseUrl
+[INFO] - [28-10-2025 18:11:28] [main] [listeners.MethodInvocationListener] - Initializing driver for test: verifyInvalidLogin | Browser: chrome
+[ERROR] - [28-10-2025 18:11:28] [main] [utilities.common.PropertiesUtils] - Property not found: baseUrl
+[ERROR] - [28-10-2025 18:11:28] [main] [utilities.selenium.helperClasses.BrowserActions] - Base URL not found in properties file!
+[INFO] - [28-10-2025 18:11:28] [main] [utilities.selenium.driver.WebDriverManager] - Closing the Driver
+[INFO] - [28-10-2025 18:11:29] [main] [listeners.TestResultListener] - Test failed: verifyInvalidLogin
+[INFO] - [28-10-2025 18:11:29] [main] [utilities.common.JsonUtils] - Reading JSON file from path: src/test/resources/Login.json
+[INFO] - [28-10-2025 18:11:29] [main] [utilities.common.JsonUtils] - Successfully read JSON Array from: src/test/resources/Login.json
+[INFO] - [28-10-2025 18:11:29] [main] [listeners.TestResultListener] - Test started: verifyValidLogin
+[ERROR] - [28-10-2025 18:11:30] [main] [utilities.common.PropertiesUtils] - Property not found: baseUrl
+[INFO] - [28-10-2025 18:11:30] [main] [listeners.MethodInvocationListener] - Initializing driver for test: verifyValidLogin | Browser: chrome
+[ERROR] - [28-10-2025 18:11:30] [main] [utilities.common.PropertiesUtils] - Property not found: baseUrl
+[ERROR] - [28-10-2025 18:11:30] [main] [utilities.selenium.helperClasses.BrowserActions] - Base URL not found in properties file!
+[INFO] - [28-10-2025 18:11:30] [main] [utilities.selenium.driver.WebDriverManager] - Closing the Driver
+[INFO] - [28-10-2025 18:11:30] [main] [listeners.TestResultListener] - Test failed: verifyValidLogin
+[INFO] - [28-10-2025 18:11:30] [main] [listeners.TestResultListener] - Test started: verifyValidLogin
+[ERROR] - [28-10-2025 18:11:32] [main] [utilities.common.PropertiesUtils] - Property not found: baseUrl
+[INFO] - [28-10-2025 18:11:32] [main] [listeners.MethodInvocationListener] - Initializing driver for test: verifyValidLogin | Browser: chrome
+[INFO] - [28-10-2025 18:11:32] [main] [utilities.selenium.driver.WebDriverManager] - Closing the Driver
+[INFO] - [28-10-2025 18:11:32] [main] [listeners.TestResultListener] - Test passed: verifyValidLogin
+[INFO] - [28-10-2025 18:11:32] [main] [listeners.TestResultListener] - Test run finished
+[INFO] - [28-10-2025 18:11:35] [main] [utilities.common.TerminalUtils] - Command executed: allure generate test_outputs/allure_results -o test_outputs/allure_report --clean --single-file
+[INFO] - [28-10-2025 18:11:35] [main] [utilities.common.AllureUtils] - Allure report generated successfully
+[INFO] - [28-10-2025 18:11:35] [main] [utilities.common.FilesUtils] - Found latest file in test_outputs\allure_report: test_outputs\allure_report\index.html
+[INFO] - [28-10-2025 18:11:35] [main] [utilities.common.FilesUtils] - File renamed successfully from test_outputs\allure_report\index.html to test_outputs\allure_report\Report 2025-10-28 18-11-35.html
+[INFO] - [28-10-2025 18:11:35] [main] [utilities.common.AllureUtils] - Allure report renamed successfully to: test_outputs\allure_report\Report 2025-10-28 18-11-35.html
+[INFO] - [28-10-2025 18:11:35] [main] [utilities.common.AllureUtils] - Opening allure report: test_outputs\allure_report\Report 2025-10-28 18-11-35.html
+[INFO] - [28-10-2025 18:11:35] [main] [utilities.common.TerminalUtils] - Command executed: start "" "test_outputs\allure_report\Report 2025-10-28 18-11-35.html"

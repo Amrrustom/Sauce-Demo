@@ -1,0 +1,29 @@
+[INFO] - [2025-10-29 00-47-44] - Test passed: checkoutScenario
+[INFO] - [2025-10-29 00-47-44] - Reading JSON file from path: src/test/resources/Login.json
+[INFO] - [2025-10-29 00-47-44] - Successfully read JSON Array from: src/test/resources/Login.json
+[INFO] - [2025-10-29 00-47-44] - Test started: loginAndLogout
+[INFO] - [2025-10-29 00-47-47] - Initializing driver for test: loginAndLogout | Browser: chrome
+[INFO] - [2025-10-29 00-47-47] - Navigated to Base URL: https://www.saucedemo.com/
+[INFO] - [2025-10-29 00-47-47] - Login page loaded successfully: https://www.saucedemo.com/
+[INFO] - [2025-10-29 00-47-48] - Clicked on input field before writing text.
+[INFO] - [2025-10-29 00-47-48] - Setting text 'standard_user' for element located by: By.id: user-name
+[INFO] - [2025-10-29 00-47-48] - Cleared existing text in the field.
+[INFO] - [2025-10-29 00-47-48] - Text 'standard_user' entered successfully.
+[INFO] - [2025-10-29 00-47-48] - Text written successfully: standard_user
+[INFO] - [2025-10-29 00-47-48] - Entered username: standard_user
+[INFO] - [2025-10-29 00-47-48] - Clicked on input field before writing text.
+[INFO] - [2025-10-29 00-47-48] - Setting text 'secret_sauce' for element located by: By.id: password
+[INFO] - [2025-10-29 00-47-48] - Cleared existing text in the field.
+[INFO] - [2025-10-29 00-47-48] - Text 'secret_sauce' entered successfully.
+[INFO] - [2025-10-29 00-47-48] - Text written successfully: secret_sauce
+[INFO] - [2025-10-29 00-47-48] - Entered password: secret_sauce
+[INFO] - [2025-10-29 00-47-48] - Scrolling to element: By.id: login-button
+[INFO] - [2025-10-29 00-47-48] - Clicking on element located by: By.id: login-button
+[INFO] - [2025-10-29 00-47-48] - Clicked on Login button.
+[INFO] - [2025-10-29 00-47-48] -  Verified: Home Page opened successfully — 'Products' title is visible.
+[INFO] - [2025-10-29 00-47-48] - Found element: By.id: react-burger-menu-btn
+[INFO] - [2025-10-29 00-47-49] - Clicked on element: By.id: react-burger-menu-btn
+[INFO] - [2025-10-29 00-47-49] - Found element: By.id: logout_sidebar_link
+[INFO] - [2025-10-29 00-47-49] - Clicked on element: By.id: logout_sidebar_link
+[INFO] - [2025-10-29 00-47-49] - Login page is loaded and visible.
+[INFO] - [2025-10-29 00-47-49] - Closing the Driver

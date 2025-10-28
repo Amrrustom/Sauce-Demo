@@ -1,0 +1,16 @@
+[INFO] - [28-10-2025 18:54:28] [main] [listeners.MethodInvocationListener] - Initializing driver for test: verifyAddingTwoItemsToCart | Browser: chrome
+[INFO] - [28-10-2025 18:54:31] [main] [utilities.selenium.driver.WebDriverManager] - Closing the Driver
+[INFO] - [28-10-2025 18:54:32] [main] [listeners.TestResultListener] - Test skipped: verifyAddingTwoItemsToCart
+[INFO] - [28-10-2025 18:54:32] [main] [listeners.TestResultListener] - Test started: verifyAddingTwoItemsToCart
+[INFO] - [28-10-2025 18:54:34] [main] [listeners.MethodInvocationListener] - Initializing driver for test: verifyAddingTwoItemsToCart | Browser: chrome
+[INFO] - [28-10-2025 18:54:36] [main] [utilities.selenium.driver.WebDriverManager] - Closing the Driver
+[INFO] - [28-10-2025 18:54:37] [main] [listeners.TestResultListener] - Test skipped: verifyAddingTwoItemsToCart
+[INFO] - [28-10-2025 18:54:37] [main] [listeners.TestResultListener] - Test started: verifyAddingTwoItemsToCart
+[INFO] - [28-10-2025 18:54:40] [main] [listeners.MethodInvocationListener] - Initializing driver for test: verifyAddingTwoItemsToCart | Browser: chrome
+[INFO] - [28-10-2025 18:54:42] [main] [utilities.selenium.driver.WebDriverManager] - Closing the Driver
+[INFO] - [28-10-2025 18:54:43] [main] [listeners.TestResultListener] - Test skipped: verifyAddingTwoItemsToCart
+[INFO] - [28-10-2025 18:54:43] [main] [listeners.TestResultListener] - Test started: verifyAddingTwoItemsToCart
+[INFO] - [28-10-2025 18:54:46] [main] [listeners.MethodInvocationListener] - Initializing driver for test: verifyAddingTwoItemsToCart | Browser: chrome
+[INFO] - [28-10-2025 18:54:49] [main] [utilities.selenium.driver.WebDriverManager] - Closing the Driver
+[INFO] - [28-10-2025 18:54:49] [main] [listeners.TestResultListener] - Test failed: verifyAddingTwoItemsToCart
+[INFO] - [28-10-2025 18:54:49] [main] [listeners.TestResultListener] - Test run finished

@@ -1,0 +1,6 @@
+[INFO] - [28-10-2025 16:19:13] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Kholoud\AppData\Local\JetBrains\IntelliJIdea2024.2\temp-testng-customsuite.xml
+
+[INFO] - [28-10-2025 16:19:13] [main] [utilities.common.PropertiesUtils] - Loading test properties from: src\main\resources\properties\testConfig.properties
+[INFO] - [28-10-2025 16:19:13] [main] [utilities.common.PropertiesUtils] - Properties loaded successfully 
+[INFO] - [28-10-2025 16:19:28] [main] [utilities.selenium.driver.WebDriverManager] - Closing the Driver

@@ -1,0 +1,23 @@
+[INFO] - [28-10-2025 16:45:07] [main] [utilities.common.PropertiesUtils] - Loading test properties from: src\main\resources\properties\testConfig.properties
+[INFO] - [28-10-2025 16:45:07] [main] [utilities.common.PropertiesUtils] - Properties loaded successfully 
+[INFO] - [28-10-2025 16:45:07] [main] [utilities.common.FilesUtils] - Directory already exists: test_outputs\logs
+[INFO] - [28-10-2025 16:45:07] [main] [utilities.common.FilesUtils] - Directory already exists: test_outputs\allure_results
+[INFO] - [28-10-2025 16:45:07] [main] [utilities.common.FilesUtils] - Directory already exists: test_outputs\screenshots
+[INFO] - [28-10-2025 16:45:07] [main] [utilities.common.FilesUtils] - Directory already exists: test_outputs\allure_report
+[INFO] - [28-10-2025 16:45:07] [main] [utilities.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\saucedemo-\test_outputs\allure_results
+[INFO] - [28-10-2025 16:45:07] [main] [utilities.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\saucedemo-\test_outputs\screenshots
+[INFO] - [28-10-2025 16:45:08] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Kholoud\IdeaProjects\saucedemo-\TestRunners\SmokeTesting.xml
+
+[INFO] - [28-10-2025 16:45:08] [main] [listeners.TestResultListener] - Test run started
+[INFO] - [28-10-2025 16:45:09] [TestNG-test-Smoke Tests Only-1] [utilities.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[ERROR] - [28-10-2025 16:45:09] [TestNG-test-Smoke Tests Only-1] [utilities.common.JsonUtils] - Failed to read JSON file: src/test/resources/loginTestData.json. Error: src\test\resources\loginTestData.json (The system cannot find the file specified)
+[INFO] - [28-10-2025 16:45:09] [TestNG-test-Smoke Tests Only-1] [listeners.TestResultListener] - Test started: verifySuccessfulLogin
+[INFO] - [28-10-2025 16:45:14] [main] [listeners.TestResultListener] - Test run finished
+[INFO] - [28-10-2025 16:45:20] [main] [utilities.common.TerminalUtils] - Command executed: allure generate test_outputs/allure_results -o test_outputs/allure_report --clean --single-file
+[INFO] - [28-10-2025 16:45:20] [main] [utilities.common.AllureUtils] - Allure report generated successfully
+[INFO] - [28-10-2025 16:45:20] [main] [utilities.common.FilesUtils] - Found latest file in test_outputs\allure_report: test_outputs\allure_report\index.html
+[INFO] - [28-10-2025 16:45:20] [main] [utilities.common.FilesUtils] - File renamed successfully from test_outputs\allure_report\index.html to test_outputs\allure_report\Report 2025-10-28 16-45-20.html
+[INFO] - [28-10-2025 16:45:20] [main] [utilities.common.AllureUtils] - Allure report renamed successfully to: test_outputs\allure_report\Report 2025-10-28 16-45-20.html
+[INFO] - [28-10-2025 16:45:20] [main] [utilities.common.AllureUtils] - Opening allure report: test_outputs\allure_report\Report 2025-10-28 16-45-20.html
+[INFO] - [28-10-2025 16:45:21] [main] [utilities.common.TerminalUtils] - Command executed: start "" "test_outputs\allure_report\Report 2025-10-28 16-45-20.html"

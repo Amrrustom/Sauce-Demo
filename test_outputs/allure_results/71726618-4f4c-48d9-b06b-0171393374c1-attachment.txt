@@ -1,0 +1,32 @@
+[INFO] - [2025-10-29 00-47-30] - Test passed: verifyInvalidLogin
+[INFO] - [2025-10-29 00-47-30] - Reading JSON file from path: src/test/resources/Login.json
+[INFO] - [2025-10-29 00-47-30] - Successfully read JSON Array from: src/test/resources/Login.json
+[INFO] - [2025-10-29 00-47-30] - Test started: loginAndAddTwoItemsToCart
+[INFO] - [2025-10-29 00-47-34] - Initializing driver for test: loginAndAddTwoItemsToCart | Browser: chrome
+[INFO] - [2025-10-29 00-47-35] - Navigated to Base URL: https://www.saucedemo.com/
+[INFO] - [2025-10-29 00-47-35] - Login page loaded successfully: https://www.saucedemo.com/
+[INFO] - [2025-10-29 00-47-35] - Clicked on input field before writing text.
+[INFO] - [2025-10-29 00-47-35] - Setting text 'standard_user' for element located by: By.id: user-name
+[INFO] - [2025-10-29 00-47-35] - Cleared existing text in the field.
+[INFO] - [2025-10-29 00-47-35] - Text 'standard_user' entered successfully.
+[INFO] - [2025-10-29 00-47-35] - Text written successfully: standard_user
+[INFO] - [2025-10-29 00-47-35] - Entered username: standard_user
+[INFO] - [2025-10-29 00-47-35] - Clicked on input field before writing text.
+[INFO] - [2025-10-29 00-47-35] - Setting text 'secret_sauce' for element located by: By.id: password
+[INFO] - [2025-10-29 00-47-35] - Cleared existing text in the field.
+[INFO] - [2025-10-29 00-47-35] - Text 'secret_sauce' entered successfully.
+[INFO] - [2025-10-29 00-47-35] - Text written successfully: secret_sauce
+[INFO] - [2025-10-29 00-47-35] - Entered password: secret_sauce
+[INFO] - [2025-10-29 00-47-35] - Scrolling to element: By.id: login-button
+[INFO] - [2025-10-29 00-47-35] - Clicking on element located by: By.id: login-button
+[INFO] - [2025-10-29 00-47-36] - Clicked on Login button.
+[INFO] - [2025-10-29 00-47-36] -  Verified: Home Page opened successfully — 'Products' title is visible.
+[INFO] - [2025-10-29 00-47-36] - Clicked element with ID: add-to-cart-sauce-labs-backpack
+[INFO] - [2025-10-29 00-47-36] - Clicked element with ID: add-to-cart-sauce-labs-bike-light
+[INFO] - [2025-10-29 00-47-36] - Found element: By.cssSelector: #shopping_cart_container > a > span
+[INFO] - [2025-10-29 00-47-36] - Found element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [2025-10-29 00-47-37] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [2025-10-29 00-47-37] - Found element: By.cssSelector: #cart_contents_container
+[INFO] - [2025-10-29 00-47-37] - Found 2 elements: By.cssSelector: .inventory_item_name
+[INFO] - [2025-10-29 00-47-37] - Found 2 elements: By.cssSelector: .inventory_item_name
+[INFO] - [2025-10-29 00-47-37] - Closing the Driver

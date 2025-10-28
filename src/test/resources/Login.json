@@ -1,0 +1,12 @@
+[
+  {
+    "scenario": "valid",
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
+  {
+    "scenario": "invalid",
+    "username": "invalid_user",
+    "password": "wrong_password"
+  }
+]

@@ -1,0 +1,5 @@
+[INFO] - [28-10-2025 16:43:54] [TestNG-test-Smoke Tests Only-1] [listeners.MethodInvocationListener] - Initializing driver for test: verifySuccessfulLogin | Browser: chrome
+[INFO] - [28-10-2025 16:43:55] [TestNG-test-Smoke Tests Only-1] [utilities.selenium.helperClasses.BrowserActions] - Navigated to URL: https://www.saucedemo.com/
+[INFO] - [28-10-2025 16:43:55] [TestNG-test-Smoke Tests Only-1] [com.saucedemo.LoginPage] - Login page loaded successfully: https://www.saucedemo.com/
+[INFO] - [28-10-2025 16:43:55] [TestNG-test-Smoke Tests Only-1] [utilities.selenium.driver.WebDriverManager] - Closing the Driver
+[INFO] - [28-10-2025 16:43:57] [TestNG-test-Smoke Tests Only-1] [listeners.TestResultListener] - Test failed: verifySuccessfulLogin

@@ -1,0 +1,13 @@
+[INFO] - [28-10-2025 16:52:57] [main] [listeners.MethodInvocationListener] - Initializing driver for test: verifySuccessfulLogin | Browser: chrome
+[INFO] - [28-10-2025 16:52:58] [main] [utilities.selenium.helperClasses.BrowserActions] - Navigated to URL: https://www.saucedemo.com/
+[INFO] - [28-10-2025 16:52:58] [main] [com.saucedemo.LoginPage] - Login page loaded successfully: https://www.saucedemo.com/
+[INFO] - [28-10-2025 16:52:58] [main] [utilities.selenium.driver.WebDriverManager] - Closing the Driver
+[INFO] - [28-10-2025 16:52:59] [main] [listeners.TestResultListener] - Test failed: verifySuccessfulLogin
+[INFO] - [28-10-2025 16:53:00] [main] [listeners.TestResultListener] - Test run finished
+[INFO] - [28-10-2025 16:53:06] [main] [utilities.common.TerminalUtils] - Command executed: allure generate test_outputs/allure_results -o test_outputs/allure_report --clean --single-file
+[INFO] - [28-10-2025 16:53:06] [main] [utilities.common.AllureUtils] - Allure report generated successfully
+[INFO] - [28-10-2025 16:53:06] [main] [utilities.common.FilesUtils] - Found latest file in test_outputs\allure_report: test_outputs\allure_report\index.html
+[INFO] - [28-10-2025 16:53:06] [main] [utilities.common.FilesUtils] - File renamed successfully from test_outputs\allure_report\index.html to test_outputs\allure_report\Report 2025-10-28 16-53-06.html
+[INFO] - [28-10-2025 16:53:06] [main] [utilities.common.AllureUtils] - Allure report renamed successfully to: test_outputs\allure_report\Report 2025-10-28 16-53-06.html
+[INFO] - [28-10-2025 16:53:06] [main] [utilities.common.AllureUtils] - Opening allure report: test_outputs\allure_report\Report 2025-10-28 16-53-06.html
+[INFO] - [28-10-2025 16:53:06] [main] [utilities.common.TerminalUtils] - Command executed: start "" "test_outputs\allure_report\Report 2025-10-28 16-53-06.html"

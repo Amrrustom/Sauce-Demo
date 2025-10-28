@@ -1,0 +1,50 @@
+[INFO] - [2025-10-29 00-47-37] - Test passed: loginAndAddTwoItemsToCart
+[INFO] - [2025-10-29 00-47-37] - Reading JSON file from path: src/test/resources/Login.json
+[INFO] - [2025-10-29 00-47-37] - Successfully read JSON Array from: src/test/resources/Login.json
+[INFO] - [2025-10-29 00-47-37] - Reading JSON file from path: src/test/resources/CheckoutTestData.json
+[INFO] - [2025-10-29 00-47-37] - Successfully read JSON Array from: src/test/resources/CheckoutTestData.json
+[INFO] - [2025-10-29 00-47-37] - Test started: checkoutScenario
+[INFO] - [2025-10-29 00-47-41] - Initializing driver for test: checkoutScenario | Browser: chrome
+[INFO] - [2025-10-29 00-47-41] - Navigated to Base URL: https://www.saucedemo.com/
+[INFO] - [2025-10-29 00-47-41] - Login page loaded successfully: https://www.saucedemo.com/
+[INFO] - [2025-10-29 00-47-41] - Clicked on input field before writing text.
+[INFO] - [2025-10-29 00-47-41] - Setting text 'standard_user' for element located by: By.id: user-name
+[INFO] - [2025-10-29 00-47-41] - Cleared existing text in the field.
+[INFO] - [2025-10-29 00-47-41] - Text 'standard_user' entered successfully.
+[INFO] - [2025-10-29 00-47-41] - Text written successfully: standard_user
+[INFO] - [2025-10-29 00-47-41] - Entered username: standard_user
+[INFO] - [2025-10-29 00-47-42] - Clicked on input field before writing text.
+[INFO] - [2025-10-29 00-47-42] - Setting text 'secret_sauce' for element located by: By.id: password
+[INFO] - [2025-10-29 00-47-42] - Cleared existing text in the field.
+[INFO] - [2025-10-29 00-47-42] - Text 'secret_sauce' entered successfully.
+[INFO] - [2025-10-29 00-47-42] - Text written successfully: secret_sauce
+[INFO] - [2025-10-29 00-47-42] - Entered password: secret_sauce
+[INFO] - [2025-10-29 00-47-42] - Scrolling to element: By.id: login-button
+[INFO] - [2025-10-29 00-47-42] - Clicking on element located by: By.id: login-button
+[INFO] - [2025-10-29 00-47-42] - Clicked on Login button.
+[INFO] - [2025-10-29 00-47-42] -  Verified: Home Page opened successfully — 'Products' title is visible.
+[INFO] - [2025-10-29 00-47-42] - Clicked element with ID: add-to-cart-sauce-labs-backpack
+[INFO] - [2025-10-29 00-47-42] - Clicked element with ID: add-to-cart-sauce-labs-bike-light
+[INFO] - [2025-10-29 00-47-42] - Found element: By.cssSelector: #shopping_cart_container > a > span
+[INFO] - [2025-10-29 00-47-42] - Found element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [2025-10-29 00-47-42] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [2025-10-29 00-47-42] - Found element: By.cssSelector: #cart_contents_container
+[INFO] - [2025-10-29 00-47-42] - Found element: By.id: checkout
+[INFO] - [2025-10-29 00-47-42] - Clicked on element: By.id: checkout
+[INFO] - [2025-10-29 00-47-43] - Checkout page opened.
+[INFO] - [2025-10-29 00-47-43] - Typed text 'Kholoud' into element: By.id: first-name
+[INFO] - [2025-10-29 00-47-43] - Typed text 'Ahmed' into element: By.id: last-name
+[INFO] - [2025-10-29 00-47-43] - Typed text '12345' into element: By.id: postal-code
+[INFO] - [2025-10-29 00-47-43] - Checkout form filled with: Kholoud Ahmed 12345
+[INFO] - [2025-10-29 00-47-43] - Found element: By.id: continue
+[INFO] - [2025-10-29 00-47-43] - Clicked on element: By.id: continue
+[INFO] - [2025-10-29 00-47-43] - Found element: By.cssSelector: #checkout_summary_container > div > div.summary_info > div:nth-child(3)
+[INFO] - [2025-10-29 00-47-43] - Found 2 elements: By.cssSelector: .inventory_item_name
+[INFO] - [2025-10-29 00-47-43] - Found element: By.id: finish
+[INFO] - [2025-10-29 00-47-43] - Clicked on element: By.id: finish
+[INFO] - [2025-10-29 00-47-43] - Checkout finished.
+[INFO] - [2025-10-29 00-47-43] - Found element: By.cssSelector: #checkout_complete_container > h2
+[INFO] - [2025-10-29 00-47-43] - Found element: By.id: back-to-products
+[INFO] - [2025-10-29 00-47-43] - Clicked on element: By.id: back-to-products
+[INFO] - [2025-10-29 00-47-43] - Found element: By.cssSelector: #header_container > div.header_secondary_container > span
+[INFO] - [2025-10-29 00-47-43] - Closing the Driver

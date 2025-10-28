@@ -1,0 +1,27 @@
+[INFO] - [28-10-2025 18:08:17] [main] [org.testng.internal.Utils] - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO] - [28-10-2025 18:08:18] [main] [utilities.common.PropertiesUtils] - Loading test properties from: src\main\resources\properties\testConfig.properties
+[INFO] - [28-10-2025 18:08:18] [main] [utilities.common.PropertiesUtils] - Properties loaded successfully 
+[INFO] - [28-10-2025 18:08:18] [main] [utilities.common.FilesUtils] - Directory already exists: test_outputs\logs
+[INFO] - [28-10-2025 18:08:18] [main] [utilities.common.FilesUtils] - Directory already exists: test_outputs\allure_results
+[INFO] - [28-10-2025 18:08:18] [main] [utilities.common.FilesUtils] - Directory already exists: test_outputs\screenshots
+[INFO] - [28-10-2025 18:08:18] [main] [utilities.common.FilesUtils] - Directory already exists: test_outputs\allure_report
+[INFO] - [28-10-2025 18:08:18] [main] [utilities.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\saucedemo-\test_outputs\allure_results
+[INFO] - [28-10-2025 18:08:18] [main] [utilities.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\saucedemo-\test_outputs\screenshots
+[INFO] - [28-10-2025 18:08:18] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Kholoud\IdeaProjects\saucedemo-\TestRunners\SmokeTesting.xml
+
+[INFO] - [28-10-2025 18:08:18] [main] [listeners.TestResultListener] - Test run started
+[INFO] - [28-10-2025 18:08:18] [main] [utilities.common.JsonUtils] - Reading JSON file from path: src/test/resources/Login.json
+[INFO] - [28-10-2025 18:08:19] [main] [utilities.common.JsonUtils] - Successfully read JSON Array from: src/test/resources/Login.json
+[INFO] - [28-10-2025 18:08:19] [main] [listeners.TestResultListener] - Test failed: verifyInvalidLogin
+[INFO] - [28-10-2025 18:08:19] [main] [utilities.common.JsonUtils] - Reading JSON file from path: src/test/resources/Login.json
+[INFO] - [28-10-2025 18:08:19] [main] [utilities.common.JsonUtils] - Successfully read JSON Array from: src/test/resources/Login.json
+[INFO] - [28-10-2025 18:08:19] [main] [listeners.TestResultListener] - Test failed: verifyValidLogin
+[INFO] - [28-10-2025 18:08:19] [main] [listeners.TestResultListener] - Test run finished
+[INFO] - [28-10-2025 18:08:21] [main] [utilities.common.TerminalUtils] - Command executed: allure generate test_outputs/allure_results -o test_outputs/allure_report --clean --single-file
+[INFO] - [28-10-2025 18:08:21] [main] [utilities.common.AllureUtils] - Allure report generated successfully
+[INFO] - [28-10-2025 18:08:21] [main] [utilities.common.FilesUtils] - Found latest file in test_outputs\allure_report: test_outputs\allure_report\index.html
+[INFO] - [28-10-2025 18:08:21] [main] [utilities.common.FilesUtils] - File renamed successfully from test_outputs\allure_report\index.html to test_outputs\allure_report\Report 2025-10-28 18-08-21.html
+[INFO] - [28-10-2025 18:08:21] [main] [utilities.common.AllureUtils] - Allure report renamed successfully to: test_outputs\allure_report\Report 2025-10-28 18-08-21.html
+[INFO] - [28-10-2025 18:08:21] [main] [utilities.common.AllureUtils] - Opening allure report: test_outputs\allure_report\Report 2025-10-28 18-08-21.html
+[INFO] - [28-10-2025 18:08:22] [main] [utilities.common.TerminalUtils] - Command executed: start "" "test_outputs\allure_report\Report 2025-10-28 18-08-21.html"

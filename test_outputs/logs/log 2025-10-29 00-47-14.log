@@ -1,0 +1,17 @@
+[INFO] - [29-10-2025 00:47:14] [main] [org.testng.internal.Utils] - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO] - [29-10-2025 00:47:15] [main] [utilities.common.PropertiesUtils] - Loading test properties from: src\main\resources\properties\testConfig.properties
+[INFO] - [29-10-2025 00:47:15] [main] [utilities.common.PropertiesUtils] - Properties loaded successfully 
+[INFO] - [29-10-2025 00:47:15] [main] [utilities.common.FilesUtils] - Directory already exists: test_outputs\logs
+[INFO] - [29-10-2025 00:47:15] [main] [utilities.common.FilesUtils] - Directory already exists: test_outputs\allure_results
+[INFO] - [29-10-2025 00:47:15] [main] [utilities.common.FilesUtils] - Directory already exists: test_outputs\screenshots
+[INFO] - [29-10-2025 00:47:15] [main] [utilities.common.FilesUtils] - Directory already exists: test_outputs\allure_report
+[INFO] - [29-10-2025 00:47:15] [main] [utilities.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\saucedemo-\test_outputs\allure_results
+[INFO] - [29-10-2025 00:47:15] [main] [utilities.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\saucedemo-\test_outputs\screenshots
+[ERROR] - [29-10-2025 00:47:15] [main] [utilities.common.PropertiesUtils] - Property not found: url
+[INFO] - [29-10-2025 00:47:16] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Kholoud\IdeaProjects\saucedemo-\TestRunners\SmokeTesting.xml
+
+[INFO] - [29-10-2025 00:47:16] [main] [listeners.TestResultListener] - Test run started
+[INFO] - [29-10-2025 00:47:16] [main] [utilities.common.JsonUtils] - Reading JSON file from path: src/test/resources/Login.json
+[INFO] - [29-10-2025 00:47:16] [main] [utilities.common.JsonUtils] - Successfully read JSON Array from: src/test/resources/Login.json
+[INFO] - [29-10-2025 00:47:16] [main] [listeners.TestResultListener] - Test started: verifyValidLogin

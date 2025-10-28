@@ -1,0 +1,5 @@
+[ERROR] - [28-10-2025 16:45:12] [TestNG-test-Smoke Tests Only-1] [utilities.common.PropertiesUtils] - Property not found: baseUrl
+[INFO] - [28-10-2025 16:45:12] [TestNG-test-Smoke Tests Only-1] [listeners.MethodInvocationListener] - Initializing driver for test: verifySuccessfulLogin | Browser: chrome
+[ERROR] - [28-10-2025 16:45:12] [TestNG-test-Smoke Tests Only-1] [utilities.common.PropertiesUtils] - Property not found: baseUrl
+[INFO] - [28-10-2025 16:45:13] [TestNG-test-Smoke Tests Only-1] [utilities.selenium.driver.WebDriverManager] - Closing the Driver
+[INFO] - [28-10-2025 16:45:14] [TestNG-test-Smoke Tests Only-1] [listeners.TestResultListener] - Test failed: verifySuccessfulLogin
