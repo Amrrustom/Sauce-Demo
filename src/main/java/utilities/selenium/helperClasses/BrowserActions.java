@@ -54,7 +54,6 @@ public class BrowserActions {
         WebDriverManager.getDriver().close();
     }
 
-    // ----------------- إضافات لازم ل CartPage و ItemPage -----------------
 
     @Step("Find element: {locator}")
     public static WebElement find(By locator) {
@@ -98,7 +97,7 @@ public class BrowserActions {
         try {
             Waits.waitForElementToBeClickable(locator, 5);
             WebElement element = WebDriverManager.getDriver().findElement(locator);
-            element.clear(); // نفضي الحقل قبل الكتابة
+            element.clear();
             element.sendKeys(text);
             LogsUtils.info("Typed text '" + text + "' into element: " + locator);
         } catch (Exception e) {

@@ -9,17 +9,14 @@ public class LoginTestData {
     public String username;
     public String password;
 
-    // كونستركتور افتراضي مطلوب من Jackson
     public LoginTestData() {}
 
-    // كونستركتور كامل
     public LoginTestData(String scenario, String username, String password) {
         this.scenario = scenario;
         this.username = username;
         this.password = password;
     }
 
-    // Getter و Setter (اختياري لكن يفضل للمرونة)
     public String getScenario() {
         return scenario;
     }

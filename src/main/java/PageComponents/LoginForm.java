@@ -16,7 +16,7 @@ public class LoginForm<T> {
     private final TextInputField passwordField = new TextInputField(By.id("password"));
     private final Button loginButton = new Button(By.id("login-button"));
 
-    // ✅ Locator لرسالة الخطأ
+
     private final TextContainer errorMessage = new TextContainer(
             By.cssSelector("#login_button_container > div > form > div.error-message-container.error")
     );
@@ -60,7 +60,6 @@ public class LoginForm<T> {
         return clickLogin();
     }
 
-    // ✅ التحقق من ظهور رسالة الخطأ
     @Step("Verify that error message is displayed")
     public boolean isErrorDisplayed() {
         try {

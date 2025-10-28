@@ -60,18 +60,16 @@ public class DataProviders {
             }
         }
 
-        // قراءة بيانات checkout
         List<Map<String, Object>> checkoutListMap = (List<Map<String, Object>>) JsonUtils.readJson(BASE + "CheckoutTestData.json");
         CheckoutTestData checkout = new CheckoutTestData();
-        Map<String, Object> firstCheckout = checkoutListMap.get(0); // افتراضياً أول عنصر
+        Map<String, Object> firstCheckout = checkoutListMap.get(0);
         checkout.firstName = firstCheckout.get("firstName").toString();
         checkout.lastName = firstCheckout.get("lastName").toString();
         checkout.postalCode = firstCheckout.get("postalCode").toString();
 
-        // إعداد Object[][] بحيث ينفذ مرة واحدة لكل valid login
-        Object[][] providerData = new Object[1][2]; // تنفيذ واحد فقط
-        providerData[0][0] = validLoginList.get(0); // أول login صالح
-        providerData[0][1] = checkout;             // أول checkout
+        Object[][] providerData = new Object[1][2];
+        providerData[0][0] = validLoginList.get(0);
+        providerData[0][1] = checkout;
 
         return providerData;
     }

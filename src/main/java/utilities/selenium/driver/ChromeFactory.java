@@ -29,7 +29,7 @@ public class ChromeFactory implements DriverFactory<ChromeOptions> {
         prefs.put("profile.password_manager_enabled", false);
         options.setExperimentalOption("prefs", prefs);
 
-        // 🧠 Run in headless mode if configured
+        // Run in headless mode if configured
         if ("true".equalsIgnoreCase(PropertiesUtils.getProperty("headless"))) {
             options.addArguments("--headless=new"); // Use new headless mode for Chrome 109+
         }
@@ -43,7 +43,7 @@ public class ChromeFactory implements DriverFactory<ChromeOptions> {
         WebDriver driver = new ChromeDriver(options);
         driver.manage().window().maximize();
 
-        // 🌐 Open the base URL from properties file
+        // Open the base URL from properties file
         String baseUrl = PropertiesUtils.getProperty("baseUrl");
         if (baseUrl != null && !baseUrl.isEmpty()) {
             driver.get(baseUrl);
